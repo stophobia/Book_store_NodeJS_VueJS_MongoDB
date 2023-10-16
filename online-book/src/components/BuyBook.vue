@@ -5,16 +5,16 @@
       <b-card-group deck>
         <b-card
           border-variant="success"
-          header="Sikeres vasarlas"
+          header="Squeezer"
           header-bg-variant="success"
           header-text-variant="white"
           align="center"
         >
           <b-card-text>
-            Konyv Cime: {{book_title }} <br/>
-            Konyv Ara: {{book_price}} <br/>
-            Felhasznalo neve: {{user_name}} <br/>
-            Felhasznalo jelenlegi egyenlege: {{user_balance}} <br/>
+            Book title: {{book_title }} <br/>
+            Book price: {{book_price}} <br/>
+            User name: {{user_name}} <br/>
+            User balance: {{user_balance}} <br/>
           </b-card-text>
         </b-card>
       </b-card-group>

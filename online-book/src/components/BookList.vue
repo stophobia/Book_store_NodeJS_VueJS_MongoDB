@@ -4,7 +4,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Könyv Lista
+        Book list
       </h2>
       <b-table striped hover :items="books" :fields="fields">
         <template slot="actions" scope="row">
@@ -32,12 +32,12 @@
       return {
         fields: {
           isbn: { label: 'ISBN', sortable: true, 'class': 'text-center' },
-          title: { label: 'Cim', sortable: true },
-          author: { label: 'Szerzo', sortable: true },
-          published_year: { label: 'Kiadasi ev', sortable: true },
-          piece: { label: 'Darab'},
-          price: {label: 'Ar'},
-          actions: { label: 'Vasarlas', 'class': 'text-center' }
+          title: { label: 'Title', sortable: true },
+          author: { label: 'Author', sortable: true },
+          published_year: { label: 'Published year', sortable: true },
+          piece: { label: 'Piece'},
+          price: {label: 'Price'},
+          actions: { label: 'Balance', 'class': 'text-center' }
         },
         books: [],
         users: [],

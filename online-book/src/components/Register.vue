@@ -2,7 +2,7 @@
   <b-row>
     <b-col cols="12">
       <h2>
-        Felhasznalo regisztralasa
+        User register
       </h2>
       <b-form @submit="onSubmit">
         <b-form-group id="fieldsetHorizontal1"
